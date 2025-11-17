@@ -123,8 +123,3 @@ Build a platform where researchers can create profiles, connect to Google Drive,
 * You are encouraged to experiment with small contributions before submitting proposals.
 * Make sure your proposal clearly outlines milestones and expected deliverables.
 
----
-
-I can also **draft the 4 separate markdown files for each project idea** (`01_visual_interface.md`, `02_cloud_plugin.md`, etc.) that expand these summaries with **detailed timelines, sample tasks, and references**, so they are fully GSoC-ready.
-
-Do you want me to do that next?
