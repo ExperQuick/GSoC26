@@ -1,8 +1,8 @@
-# PyLabFlow GSoC 2026 Project Ideas 🚀
+# ExperQuick GSoC 2026 Project Ideas 🚀
 
-Welcome to the **PyLabFlow GSoC 2026 Project Ideas** repository!  
+Welcome to the **ExperQuick GSoC 2026 Project Ideas** repository!  
 
-PyLabFlow is an open-source Python library for designing, managing, and running reproducible data analysis workflows.  
+PyLabFlow is an open-source Python library for designing, managing, and running reproducible experimental workflows.  
 This folder contains detailed project ideas for students interested in contributing to PyLabFlow during GSoC 2026.  
 
 Each project has its own dedicated page with full details including milestones, deliverables, skills required, and references.
