@@ -1,121 +1,37 @@
 # PyLabFlow GSoC 2026 Project Ideas 🚀
 
-Welcome to **PyLabFlow GSoC 2026**!
+Welcome to the **PyLabFlow GSoC 2026 Project Ideas** repository!  
 
-PyLabFlow is an open-source Python library for designing, managing, and running reproducible data analysis and research workflows. This repository contains detailed project ideas for students interested in contributing to PyLabFlow under Google Summer of Code (GSoC) 2026.
+PyLabFlow is an open-source Python library for designing, managing, and running reproducible data analysis workflows.  
+This folder contains detailed project ideas for students interested in contributing to PyLabFlow during GSoC 2026.  
 
-Each project includes:
-
-* **Title**
-* **Description & Motivation**
-* **Skills Required**
-* **Deliverables & Success Criteria**
-* **Suggested Milestones**
-* **Mentors (to be assigned)**
-
-Students are encouraged to explore the PyLabFlow codebase, ask questions via GitHub Discussions, and propose innovative enhancements aligned with these ideas.
+Each project has its own dedicated page with full details including milestones, deliverables, skills required, and references.
 
 ---
 
-## 📌 Project Ideas
+## Available Projects
 
-### **1. Visual Interface for Component Abstraction**
+1. **[Visual Interface for Component Abstraction](01_VisualInterFace.md)**  
+   Build an interactive GUI using NiceGUI to visually create and connect PyLabFlow components, making workflows more intuitive and flexible.
 
-**Description:**
-Create an interactive visual interface for PyLabFlow components using [NiceGUI](https://nicegui.io/). The goal is to make PyLabFlow as flexible as Jupyter Notebook, but focused on modular component-based workflows.
+2. **[PyLabFlow Cloud Plugin](02_CloudPlugin.md)**  
+   Enable PyLabFlow to work in cloud environments like Google Colab and Kaggle by integrating Google Drive for storage and execution.
 
-**Skills Required:** Python, NiceGUI, PyLabFlow architecture, frontend basics (optional)
+3. **[PyLabFlow Scale](03_PTLFScale.md)**  
+   Replace SQLite3 with a SQL server backend and implement concurrency control, allowing multiple researchers to collaborate on workflows simultaneously.
 
-**Deliverables:**
-
-* UI prototype for single components
-* Workflow chaining for multiple components
-* Documentation and example workflows
-
-**Suggested Milestones:**
-
-1. UI prototype for one component
-2. Add multiple component chaining
-3. Complete workflow integration
+4. **[Collaborative Research Platform](04_ResearchPlatform.md)**  
+   Build a platform for researchers to create profiles, connect to cloud environments, and collaborate in “rooms” to share and design experiments using PyLabFlow.
 
 ---
 
-### **2. PyLabFlow Cloud Plugin**
+## Getting Started
 
-**Description:**
-Enable PyLabFlow to work in cloud environments like Google Colab and Kaggle. Currently, PyLabFlow is local-only, requiring a filesystem and Python environment. The project will use Google Drive integration to store and access components remotely.
-
-**Skills Required:** Python, Google Drive API, cloud workflows, PyLabFlow internals
-
-**Deliverables:**
-
-* Google Drive integration plugin
-* Support for Colab/Kaggle execution
-* Example notebooks demonstrating cloud usage
-
-**Suggested Milestones:**
-
-1. Basic Google Drive integration
-2. Test on Colab/Kaggle
-3. Full cloud workflow with examples
+- Explore the individual project files for detailed descriptions.  
+- Fork the main PyLabFlow repository: [PyLabFlow GitHub](https://github.com/ExperQuick/PyLabFlow)  
+- Join GitHub Discussions for questions and guidance.  
+- Start drafting your GSoC proposal using the suggested milestones and deliverables.  
 
 ---
 
-### **3. Scalable PyLabFlow for Multi-Researcher Collaboration**
-
-**Description:**
-Currently, PyLabFlow is designed for single researchers using SQLite3. This project will make it scalable for multiple researchers working on different aspects of a project by implementing a SQL server with concurrency control.
-
-**Skills Required:** Python, SQL (PostgreSQL/MySQL), concurrency, PyLabFlow internals
-
-**Deliverables:**
-
-* Replace SQLite3 with SQL server backend
-* Implement concurrency control
-* Test multi-user workflows
-
-**Suggested Milestones:**
-
-1. SQL server integration
-2. Implement concurrency handling
-3. Validate multi-researcher workflow
-
----
-
-### **4. Collaborative Research Platform**
-
-**Description:**
-Build a platform where researchers can create profiles, connect to Google Drive, Colab, or Kaggle, and collaborate in “rooms” for specific research projects. Each room will allow shared experiment design, component development, and workflow management via PyLabFlow.
-
-**Skills Required:** Python, web frameworks (Flask/Django/FastAPI), OAuth, PyLabFlow internals
-
-**Deliverables:**
-
-* User profile management
-* Room creation and sharing experiments
-* Collaborative workflow support
-
-**Suggested Milestones:**
-
-1. User authentication & profile management
-2. Room creation & collaborative sharing
-3. Complete collaborative workflow testing
-
----
-
-## ⚡ How to Get Started
-
-1. Fork the PyLabFlow repository: [https://github.com/ExperQuick/PyLabFlow](https://github.com/ExperQuick/PyLabFlow)
-2. Set up your environment according to the setup instructions in `Setup/environment.md`
-3. Join our GitHub Discussions for questions and mentorship: [link to Discussions]
-4. Pick a project idea and start exploring the codebase
-5. Submit your GSoC proposal using the template in `Templates/proposal_template.md`
-
----
-
-## 📢 Notes for Students
-
-* Always communicate questions in GitHub Discussions — mentors actively monitor them.
-* You are encouraged to experiment with small contributions before submitting proposals.
-* Make sure your proposal clearly outlines milestones and expected deliverables.
-
+We encourage students to experiment, ask questions, and propose innovative solutions aligned with these project ideas. Good luck!
